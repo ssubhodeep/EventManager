@@ -61,11 +61,16 @@ class EventFcmService : FirebaseMessagingService() {
 
     override fun onNewToken(token: String) {
         super.onNewToken(token)
+//        android.util.Log.d(TAG, "FCM token refreshed: $token")
         scope.launch { fcmTokenRepository.saveToken(token) }
     }
 
     override fun onDestroy() {
         super.onDestroy()
         scope.cancel()
+    }
+
+    companion object {
+        private const val TAG = "EventFcmService"
     }
 }
