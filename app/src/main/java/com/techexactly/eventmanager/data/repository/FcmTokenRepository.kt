@@ -39,7 +39,7 @@ class FcmTokenRepository @Inject constructor(
      *  onNewToken alone would have had no uid to save it under at the time. */
     suspend fun syncCurrentToken(): Result<Unit> = try {
         val token = messaging.token.await()
-t        saveToken(token)
+        saveToken(token)
     } catch (e: Exception) {
         Result.failure(e)
     }
