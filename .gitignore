@@ -1,0 +1,28 @@
+*.iml
+.gradle
+.kotlin/
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/deviceManager.xml
+.DS_Store
+**/build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Real Firebase config - each developer downloads their own from the Firebase console.
+# A template lives at app/google-services.sample.json.
+app/google-services.json
+
+# Cloud Functions (functions/.gitignore covers node_modules; this is the Firebase CLI's own
+# per-machine state, not something to share between developers).
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log

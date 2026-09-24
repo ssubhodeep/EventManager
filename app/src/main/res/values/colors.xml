@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="secondary">#FF6D00</color>
+    <color name="background_light">#FAFAFA</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Semantic accents -->
+    <color name="upcoming_accent">#2E7D32</color>
+    <color name="upcoming_bg">#D8F5DC</color>
+    <color name="upcoming_text">#1B7A2E</color>
+
+    <color name="past_accent">#757575</color>
+    <color name="past_bg">#ECECEC</color>
+    <color name="past_text">#666666</color>
+
+    <color name="total_accent">#3F51B5</color>
+
+    <color name="offline_bg">#FFF3CD</color>
+    <color name="offline_text">#7A5B00</color>
+    <color name="offline_icon">#B8860B</color>
+
+    <color name="syncing_bg">#E3E8FD</color>
+    <color name="syncing_text">#3F51B5</color>
+</resources>

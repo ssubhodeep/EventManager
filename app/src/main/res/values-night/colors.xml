@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_light">#121212</color>
+    <color name="surface_light">#1E1E1E</color>
+
+    <!-- Same brand colors; semantic badge/banner tints get darker backgrounds + lighter text so they read correctly on a dark surface. -->
+    <color name="upcoming_accent">#66BB6A</color>
+    <color name="upcoming_bg">#1B3B20</color>
+    <color name="upcoming_text">#8FD89A</color>
+
+    <color name="past_accent">#9E9E9E</color>
+    <color name="past_bg">#333333</color>
+    <color name="past_text">#BDBDBD</color>
+
+    <color name="offline_bg">#4A3B00</color>
+    <color name="offline_text">#F0D060</color>
+    <color name="offline_icon">#F0D060</color>
+
+    <color name="syncing_bg">#2A2F5C</color>
+    <color name="syncing_text">#AEB8FF</color>
+</resources>
